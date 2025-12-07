@@ -99,6 +99,8 @@ html {
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -337,6 +339,9 @@ box-shadow: -0.5rem -0.5rem 0.5rem 0.4rem red;
     margin-top: 2rem;
     border-radius: 2rem;
 }
+.portfolio .box-container .box .content a:hover{
+    background: none;
+}
 .blogs .box-container{
     grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
     .box{
@@ -414,7 +419,7 @@ box-shadow: -0.5rem -0.5rem 0.5rem 0.4rem red;
             font-size: 2rem;
         }
         p{
-            color: #353333;
+            color: #857e7e;
             line-height: 2rem;
         }
     }
@@ -430,7 +435,7 @@ box-shadow: -0.5rem -0.5rem 0.5rem 0.4rem red;
         padding-left: 0.3rem;
       }
       p{
-        color: #353333;
+        color: #857e7e;
         padding-left: 2rem;
         text-transform: none;
       }
